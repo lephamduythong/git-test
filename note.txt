@@ -11,4 +11,4 @@ git add <file-name.file-extension> | * (-A)
 git log
 git branch <branch_name> #Create a new branch
 git checkout <branch_name>
-git rebase <parent_branch>
+git rebase <child_branch>
