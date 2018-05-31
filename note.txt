@@ -12,3 +12,9 @@ git log
 git branch <branch_name> #Create a new branch
 git checkout <branch_name>
 git rebase <child_branch>
+
+# Gitbash
+ssh-keygen
+Open C:/Users/<Username>/.ssh/id_rsa.pub -> Copy key
+Personal Settings -> SSH and GPG keys -> Add key -> Title and paste key copied
+ssh -T git@github.com
